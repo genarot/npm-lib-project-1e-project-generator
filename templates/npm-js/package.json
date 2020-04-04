@@ -2,22 +2,15 @@
   "name": "<%= projectName %>",
   "version": "1.0.0",
   "description": "# Requirements * ... * ... * ...",
-  "main": "./dist/index.ts",
-  "types": "./dist/index.d.ts",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
   "devDependencies": {
-    "mocha": "^7.1.1",
-    "typescript": "^3.8.3",
-    "chai": "^4.2.0",
-    "@types/chai": "^4.2.11",
-    "@types/mocha": "^7.0.2"
+    "mocha": "^7.1.1"
   },
   "scripts": {
-    "test": "mocha",
-    "build": "tsc",
-    "watch": "tsc -w"
+    "test": "mocha"
   },
   "author": "Genaro Tinoco <genaro_13@hotmail.es>",
   "license": "MIT"

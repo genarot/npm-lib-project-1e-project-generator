@@ -1,6 +1,6 @@
-const lib = require('./../dist/index');
+import  {expect} from 'chai';
+import lib from './../lib/index';
 
-const expect = require('chai').expect;
 
 describe('<%= projectName %> tests', () => {
     
